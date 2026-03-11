@@ -51,8 +51,16 @@ public class Canario extends Aves {
     }
     
     //METODOS
-    public void muestra(){
-        
+    @Override
+    public void muestra() {
+        System.out.println("Tipo: Canario");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Fecha de nacimiento: " + getFechaNacimiento());
+        System.out.println("Color: " + color);
+        System.out.println("Canta: " + canta);
+        System.out.println("Tipo de pico: " + getPico());
+        System.out.println("Vuela: " + isVuela());
     }
     
     public void habla(){

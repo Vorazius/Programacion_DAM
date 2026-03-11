@@ -5,16 +5,52 @@
 
 package ej3_mascotas;
 
-import java.util.Scanner;
+import java.util.ArrayList;
 
-
-/* -----------------T-MOD-Ej------------------*/
-/**/
-/**
- *
- * @author Marta González
- */
 public class Inventario {
-    
-    
-} //class
+
+    // ArrayList privado donde se guardan los animales
+    private ArrayList<Mascotas> animales;
+
+    // Constructor
+    public Inventario() {
+        animales = new ArrayList<>();
+    }
+
+    // Insertar animal
+    public void insertarAnimal(Mascotas m) {
+        animales.add(m);
+    }
+
+    // Mostrar lista de animales (tipo + nombre)
+    public void mostrarListaAnimales() {
+        for (int i = 0; i < animales.size(); i++) {
+            Mascotas m = animales.get(i);
+            System.out.println(i + " - " + m.getClass().getSimpleName() + " : " + m.getNombre());
+        }
+    }
+
+    // Mostrar todos los animales (todos sus datos)
+    public void mostrarTodosAnimales() {
+        for (Mascotas m : animales) {
+            m.muestra();
+            System.out.println("----------------------");
+        }
+    }
+
+    // Eliminar animal por posición
+    public void eliminarAnimal(int posicion) {
+
+        if (posicion >= 0 && posicion < animales.size()) {
+            animales.remove(posicion);
+        } else {
+            System.out.println("Posición no válida");
+        }
+
+    }
+
+    // Vaciar inventario
+    public void vaciarInventario() {
+        animales.clear();
+    }
+}

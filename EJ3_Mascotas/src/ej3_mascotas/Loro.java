@@ -52,8 +52,16 @@ public class Loro extends Aves {
     }
     
     //METODOS
-    public void muestra(){
-        
+    @Override
+    public void muestra() {
+        System.out.println("Tipo: Loro");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Fecha de nacimiento: " + getFechaNacimiento());
+        System.out.println("Origen: " + origen);
+        System.out.println("Habla: " + habla);
+        System.out.println("Tipo de pico: " + getPico());
+        System.out.println("Vuela: " + isVuela());
     }
     
     public void saluda(){

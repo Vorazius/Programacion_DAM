@@ -51,8 +51,14 @@ public class Perro extends Mascotas {
     
     
     //METODOS
+    @Override
     public void muestra() {
-        
+        System.out.println("Tipo: Perro");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Fecha de nacimiento: " + getFechaNacimiento());
+        System.out.println("Raza: " + raza);
+        System.out.println("Pulgas: " + pulgas);
     }
     
     public void habla(){

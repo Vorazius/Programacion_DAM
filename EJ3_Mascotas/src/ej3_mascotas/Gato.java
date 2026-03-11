@@ -52,8 +52,14 @@ public class Gato extends Mascotas{
     }
     
     //METODOS
+    @Override
     public void muestra() {
-        
+        System.out.println("Tipo: Gato");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Fecha de nacimiento: " + getFechaNacimiento());
+        System.out.println("Color: " + color);
+        System.out.println("Pelo largo: " + peloLargo);
     }
     
     public void habla(){
