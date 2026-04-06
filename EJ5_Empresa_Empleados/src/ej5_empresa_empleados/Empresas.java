@@ -49,15 +49,14 @@ public class Empresas {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    
+
     //METODOS
     public void añadirEmpleado() {
         
     }
-    
+
     public void eliminarEmpleado() {
         
     }
-    
     
 } //class
