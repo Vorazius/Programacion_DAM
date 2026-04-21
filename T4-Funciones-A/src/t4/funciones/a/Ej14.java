@@ -9,28 +9,18 @@ import java.util.Scanner;
 
 
 /* -----------------T-MOD-Ej------------------*/
-/*Escribe un programa que pida un número entero por teclado y muestre por pantalla si es
-positivo, negativo o cero*/
+/* Escribe una función que muestre por pantalla un triángulo como el del ejemplo. Deberá recibir
+dos parámetros: el carácter que se desea imprimir y el número de líneas del triángulo.*/
 /**
  *
  * @author Marta González
  */
-public class Ej4 {
+public class Ej14 {
     public static void main(String[] args) {
         
     } //main
     
-    public  static int dimeSigno(int numero) {
-        int signo;
+    public static void piramide(char caracter, int lineas) {
         
-        if (numero > 0) {
-            signo = 1;
-        } else if(numero == 0) {
-            signo = 0;
-        } else {
-            signo = -1;
-        }
-        
-        return signo;
-    } 
+    }
 } //class

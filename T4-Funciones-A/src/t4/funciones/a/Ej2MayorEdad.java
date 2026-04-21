@@ -15,7 +15,7 @@ o no*/
  *
  * @author Marta González
  */
-public class Ej2 {
+public class Ej2MayorEdad {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         

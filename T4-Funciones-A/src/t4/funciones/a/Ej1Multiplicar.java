@@ -13,7 +13,7 @@ import java.util.*;
 Escribe un programa que pida dos números reales por teclado y muestre por pantalla el
 resultado de multiplicarlos.
 */
-public class Ej1 {
+public class Ej1Multiplicar {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

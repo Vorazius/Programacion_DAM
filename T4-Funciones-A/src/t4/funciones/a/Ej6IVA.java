@@ -15,7 +15,7 @@ uno tras aplicarle un 21% de IVA*/
  *
  * @author Marta González
  */
-public class Ej6 {
+public class Ej6IVA {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int precio = 0;

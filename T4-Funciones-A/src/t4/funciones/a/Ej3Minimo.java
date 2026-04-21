@@ -15,7 +15,7 @@ mínimo*/
  *
  * @author Marta González
  */
-public class Ej3 {
+public class Ej3Minimo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Numero 1: ");

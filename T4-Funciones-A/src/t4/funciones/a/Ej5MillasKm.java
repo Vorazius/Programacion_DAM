@@ -15,7 +15,7 @@ Recuerda que una milla son 1,60934 kilómetros*/
  *
  * @author Marta González
  */
-public class Ej5 {
+public class Ej5MillasKm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce numero de millas: ");
