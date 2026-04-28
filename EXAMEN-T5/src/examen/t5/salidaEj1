@@ -1,0 +1,52 @@
+run:
+***********************DATOS INICIALES***********************
+ALTAVOCES
+Genius año 2025. Precio de adquisición= 50.0
+PVP = 0.0
+Peso = 525.0 Kg
+Calidad: ALTA
+
+NOTEBOOK
+Acer año 2026. Precio de adquisición= 300.0
+PVP = 0.0
+Peso = 780.0 Kg
+Batería: 10
+
+PDI
+Smart año 2020. Precio de adquisición= 1200.0
+PVP = 0.0
+Resolución: 1900x1600
+Tipo: Capacitiva
+
+PANTALLA TÁCTIL
+Xiaomi año 2026. Precio de adquisición= 2850.0
+PVP = 0.0
+Resolución: 2200x2000
+Herramientas: 58
+
+***********************CALCULO PRECIOS DE VENTA***********************
+ALTAVOCES
+Genius año 2025. Precio de adquisición= 50.0
+PVP = 57.49999999999999
+Peso = 525.0 Kg
+Calidad: ALTA
+
+NOTEBOOK
+Acer año 2026. Precio de adquisición= 300.0
+PVP = 360.0
+Peso = 780.0 Kg
+Batería: 10
+
+PDI
+Smart año 2020. Precio de adquisición= 1200.0
+PVP = 1536.0
+Resolución: 1900x1600
+Tipo: Capacitiva
+
+PANTALLA TÁCTIL
+Xiaomi año 2026. Precio de adquisición= 2850.0
+PVP = 3648.0
+Resolución: 2200x2000
+Herramientas: 58
+
+BUILD SUCCESSFUL (total time: 0 seconds)

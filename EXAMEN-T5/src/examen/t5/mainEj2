@@ -1,0 +1,34 @@
+public static void main(String[] args) {
+        System.out.println("\n****************** RONDA 1 ******************");
+        System.out.println("----------- Presentación de datos ------------\n");
+        Agente agente1=new Agente("Juan Pérez", "688552211", 2);
+        Agente agente2=new Agente("Marcos López", "688776699", 4);
+        Agente agente3=new Agente("Alicia Márquez", "625789654", 10);
+        Agente agente4=new Agente("Nerea Andrés", "6611332211", 5);
+        
+        Inspector inspector1=new Inspector("Gadchet", "698553311", 15);
+        Inspector inspector2=new Inspector("Manuela Mauri", "614554466", 8);
+        
+        Comisario comisario1=new Comisario("Montalbano", "674551133", 20);
+        
+        //Añado las instancias a la lista
+        ArrayList<policias.Policia> lista = new ArrayList<policias.Policia>();
+        lista.add(agente1);
+        lista.add(agente2);
+        lista.add(agente3);
+        lista.add(agente4);
+        lista.add(inspector1);
+        lista.add(inspector2);
+        lista.add(comisario1);
+        
+        //Presentar los datos iniciales haciendo uso del polimorfismo
+        
+        
+        
+        System.out.println("\n****************** RONDA 2 ******************");
+        System.out.println("------------ Asignamos el sueldo --------------\n");       
+        //Asignar el sueldo y volver a imprimir los datos haciendo uso del polimorfismo
+        
+        
+    }//main
+

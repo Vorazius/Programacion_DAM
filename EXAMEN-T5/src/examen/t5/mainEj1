@@ -1,0 +1,33 @@
+public static void main(String[] args) {
+        
+        ArrayList<Producto> lista = new ArrayList();
+        
+               
+        //(calidad, marca, año, precio, peso)
+        Altavoces a1 = new Altavoces("ALTA", "Genius", 2025, 50, 525);
+        
+        //(bateria, marca, año, precio, peso)
+        Notebook n1 = new Notebook(10, "Acer", 2026, 300, 780);
+        
+        //(capacitiva/resistiva, resolucion, marca, año, precio)
+        PDI pdi1 = new PDI(true, "1900x1600", "Smart", 2020, 1200);
+        
+        //(herramientas, resolucion, marca, año, precio)
+        Pantalla p1 = new Pantalla(58, "2200x2000", "Xiaomi", 2026, 2850);
+        
+        //Se añaden las instancias a la lista
+        lista.add(a1);
+        lista.add(n1);
+        lista.add(pdi1);
+        lista.add(p1);
+        
+        
+        System.out.println("***********************DATOS INICIALES***********************");
+        //Presentar los datos iniciales haciendo uso del polimorfismo
+        
+        
+        System.out.println("***********************CALCULO PRECIOS DE VENTA***********************");
+        //Calcular el PVP y presentar nuevamente los datos haciendo uso del polimorfismo
+        
+        
+    }//main

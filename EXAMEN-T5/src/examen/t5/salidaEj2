@@ -1,0 +1,93 @@
+run:
+
+****************** RONDA 1 ******************
+----------- Presentación de datos ------------
+
+******* AGENTE *******
+Nombre: Juan Pérez
+Teléfono: 688552211
+Sueldo: 0.0
+Antigüedad: 2
+
+******* AGENTE *******
+Nombre: Marcos López
+Teléfono: 688776699
+Sueldo: 0.0
+Antigüedad: 4
+
+******* AGENTE *******
+Nombre: Alicia Márquez
+Teléfono: 625789654
+Sueldo: 0.0
+Antigüedad: 10
+
+******* AGENTE *******
+Nombre: Nerea Andrés
+Teléfono: 6611332211
+Sueldo: 0.0
+Antigüedad: 5
+
+******* INSPECTOR *******
+Nombre: Gadchet
+Teléfono: 698553311
+Sueldo: 0.0
+Antigüedad: 15
+
+******* INSPECTOR *******
+Nombre: Manuela Mauri
+Teléfono: 614554466
+Sueldo: 0.0
+Antigüedad: 8
+
+******* COMISARIO *******
+Nombre: Montalbano
+Teléfono: 674551133
+Sueldo: 0.0
+Antigüedad: 20
+
+****************** RONDA 2 ******************
+------------ Asignamos el sueldo --------------
+
+******* AGENTE *******
+Nombre: Juan Pérez
+Teléfono: 688552211
+Sueldo: 1800.0
+Antigüedad: 2
+
+******* AGENTE *******
+Nombre: Marcos López
+Teléfono: 688776699
+Sueldo: 1800.0
+Antigüedad: 4
+
+******* AGENTE *******
+Nombre: Alicia Márquez
+Teléfono: 625789654
+Sueldo: 1800.0
+Antigüedad: 10
+
+******* AGENTE *******
+Nombre: Nerea Andrés
+Teléfono: 6611332211
+Sueldo: 1800.0
+Antigüedad: 5
+
+******* INSPECTOR *******
+Nombre: Gadchet
+Teléfono: 698553311
+Sueldo: 2025.0000000000002
+Antigüedad: 15
+
+******* INSPECTOR *******
+Nombre: Manuela Mauri
+Teléfono: 614554466
+Sueldo: 2025.0000000000002
+Antigüedad: 8
+
+******* COMISARIO *******
+Nombre: Montalbano
+Teléfono: 674551133
+Sueldo: 2355.0
+Antigüedad: 20
+BUILD SUCCESSFUL (total time: 0 seconds)
+
